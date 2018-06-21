@@ -8,6 +8,7 @@ import { Layout, Menu, Breadcrumb, Icon, Button } from 'antd';
 import TenantListContent from './component/tenant.list.content';
 import TenantReportList from './component/tenant.report.list';
 
+
 const { Header, Content, Footer, Sider } = Layout;
 
 // const linkArr = [

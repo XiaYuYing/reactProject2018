@@ -50,5 +50,5 @@ class TenantReportList extends Component {
         ); 
     }
 }
-
 export default TenantReportList
+
