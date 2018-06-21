@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './less/component.less';
 
 class App extends Component {
   render() {
@@ -8,12 +9,14 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <ul>
-            <li>轮播</li>
+          <ul className="header-ul">
+            <li><a href="/">首页</a></li>
+            <li><a href="/" target="_blank">工作相关</a></li>
+            <li><a href="/">私人兴趣</a></li>
           </ul>
         </header>
         <p className="App-intro">
-          Toooo get started, edit <code>src/App.js</code> and save to reload.
+          begin your work
         </p>
       </div>
     );
